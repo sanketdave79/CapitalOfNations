@@ -14,13 +14,16 @@
 		450B662E18E53138008524A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 450B662D18E53138008524A7 /* main.m */; };
 		450B663218E53138008524A7 /* SDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 450B663118E53138008524A7 /* SDAppDelegate.m */; };
 		450B663518E53138008524A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450B663318E53138008524A7 /* Main.storyboard */; };
-		450B663818E53138008524A7 /* SDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450B663718E53138008524A7 /* SDViewController.m */; };
 		450B663A18E53138008524A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450B663918E53138008524A7 /* Images.xcassets */; };
 		450B664118E53138008524A7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450B664018E53138008524A7 /* XCTest.framework */; };
 		450B664218E53138008524A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450B662118E53138008524A7 /* Foundation.framework */; };
 		450B664318E53138008524A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450B662518E53138008524A7 /* UIKit.framework */; };
 		450B664B18E53138008524A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 450B664918E53138008524A7 /* InfoPlist.strings */; };
 		450B664D18E53138008524A7 /* CapitalOfNationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 450B664C18E53138008524A7 /* CapitalOfNationsTests.m */; };
+		450B665818E53202008524A7 /* SDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450B665718E53202008524A7 /* SDTableViewController.m */; };
+		450B665B18E539CE008524A7 /* SDTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 450B665A18E539CE008524A7 /* SDTableCell.m */; };
+		4519B6B718E6A23300A695BD /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4519B6B618E6A23300A695BD /* JavaScriptCore.framework */; };
+		45EEC57A1907F16C008C1045 /* SDTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EEC5791907F16C008C1045 /* SDTestController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,19 @@
 		450B663018E53138008524A7 /* SDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDAppDelegate.h; sourceTree = "<group>"; };
 		450B663118E53138008524A7 /* SDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAppDelegate.m; sourceTree = "<group>"; };
 		450B663418E53138008524A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		450B663618E53138008524A7 /* SDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDViewController.h; sourceTree = "<group>"; };
-		450B663718E53138008524A7 /* SDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDViewController.m; sourceTree = "<group>"; };
 		450B663918E53138008524A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		450B663F18E53138008524A7 /* CapitalOfNationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapitalOfNationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		450B664018E53138008524A7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		450B664818E53138008524A7 /* CapitalOfNationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CapitalOfNationsTests-Info.plist"; sourceTree = "<group>"; };
 		450B664A18E53138008524A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		450B664C18E53138008524A7 /* CapitalOfNationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapitalOfNationsTests.m; sourceTree = "<group>"; };
+		450B665618E53202008524A7 /* SDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTableViewController.h; sourceTree = "<group>"; };
+		450B665718E53202008524A7 /* SDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTableViewController.m; sourceTree = "<group>"; };
+		450B665918E539CE008524A7 /* SDTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTableCell.h; sourceTree = "<group>"; };
+		450B665A18E539CE008524A7 /* SDTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTableCell.m; sourceTree = "<group>"; };
+		4519B6B618E6A23300A695BD /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		45EEC5781907F16C008C1045 /* SDTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTestController.h; sourceTree = "<group>"; };
+		45EEC5791907F16C008C1045 /* SDTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTestController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4519B6B718E6A23300A695BD /* JavaScriptCore.framework in Frameworks */,
 				450B662418E53138008524A7 /* CoreGraphics.framework in Frameworks */,
 				450B662618E53138008524A7 /* UIKit.framework in Frameworks */,
 				450B662218E53138008524A7 /* Foundation.framework in Frameworks */,
@@ -101,6 +110,7 @@
 		450B662018E53138008524A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4519B6B618E6A23300A695BD /* JavaScriptCore.framework */,
 				450B662118E53138008524A7 /* Foundation.framework */,
 				450B662318E53138008524A7 /* CoreGraphics.framework */,
 				450B662518E53138008524A7 /* UIKit.framework */,
@@ -115,8 +125,12 @@
 				450B663018E53138008524A7 /* SDAppDelegate.h */,
 				450B663118E53138008524A7 /* SDAppDelegate.m */,
 				450B663318E53138008524A7 /* Main.storyboard */,
-				450B663618E53138008524A7 /* SDViewController.h */,
-				450B663718E53138008524A7 /* SDViewController.m */,
+				450B665618E53202008524A7 /* SDTableViewController.h */,
+				450B665718E53202008524A7 /* SDTableViewController.m */,
+				450B665918E539CE008524A7 /* SDTableCell.h */,
+				450B665A18E539CE008524A7 /* SDTableCell.m */,
+				45EEC5781907F16C008C1045 /* SDTestController.h */,
+				45EEC5791907F16C008C1045 /* SDTestController.m */,
 				450B663918E53138008524A7 /* Images.xcassets */,
 				450B662818E53138008524A7 /* Supporting Files */,
 			);
@@ -250,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450B665818E53202008524A7 /* SDTableViewController.m in Sources */,
 				450B662E18E53138008524A7 /* main.m in Sources */,
-				450B663818E53138008524A7 /* SDViewController.m in Sources */,
 				450B663218E53138008524A7 /* SDAppDelegate.m in Sources */,
+				450B665B18E539CE008524A7 /* SDTableCell.m in Sources */,
+				45EEC57A1907F16C008C1045 /* SDTestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +398,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CapitalOfNations/CapitalOfNations-Prefix.pch";
 				INFOPLIST_FILE = "CapitalOfNations/CapitalOfNations-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,6 +412,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CapitalOfNations/CapitalOfNations-Prefix.pch";
 				INFOPLIST_FILE = "CapitalOfNations/CapitalOfNations-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -461,6 +479,7 @@
 				450B665218E53138008524A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		450B665318E53138008524A7 /* Build configuration list for PBXNativeTarget "CapitalOfNationsTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +488,7 @@
 				450B665518E53138008524A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
